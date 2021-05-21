@@ -6,4 +6,20 @@
   width: 100%;
 }
 
+.nav-bar {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 88px;
+  background-color: #FFFFFF;
+}
+
+.header {
+  position: absolute;
+  height: 445px;
+  width: 100%;
+  background-image: linear-gradient(#00C9EF, #009FD0)
+}
+
 
