@@ -30,9 +30,10 @@ Breaking down the provided mock-up, these elements are provided (in order):
 -   Footer - logo left with 5 sections of columns of associated links.
 
 Using semantic HTML, it is encouraged to replace generic divs with more contextual tags. Semantic tags for this project: 
+-   nav
 -   header
 -   main
--   nav
+-   section
 -   footer
 
 Media Queries will be used for a more responsive design
