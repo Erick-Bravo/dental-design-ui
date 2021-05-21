@@ -16,6 +16,33 @@ As there are often trade offs when crafting a solution, the following is the pri
 
 Please add a section explaining the technical and style decisions involved in designing your solution. What options were you considering at various levels (eg. breakpoint choices, layout choices, and design, as applicable) and what were the tradeoffs in choosing one option over another? Feel free to include this section here in this README.
 
+
+### Dev Notes </b>
+
+Breaking down the provided mock-up, these elements are provided (in order):
+-   Navbar at top - logo left, individual section right containing 3 drop down and 2 buttons.
+-   Gradient section w/ header - will need to be position absolute.
+-   Video - Lays over the gradient section. This is an embeded video 1440x357
+-   Title for about - "Our Mission & Vision"
+-   Text section - 710px w x 286px h
+-   Leadership Section - this is be a seperate component taking in data as a prop.
+-   Our Invester - slightly darker colored banner with logos of invester companies
+-   Footer - logo left with 5 sections of columns of associated links.
+
+Using semantic HTML, it is encouraged to replace generic divs with more contextual tags. Semantic tags for this project: 
+-   header
+-   main
+-   nav
+-   footer
+
+Media Queries will be used for a more responsive design
+- small phone - max-width: 600px
+
+Flex box will definately be used. 
+
+All-in-all seems like a straight forward design. At the moment of initial start, I am not considering any other technical methods, and I am only going to do media queries for small devices as I ...need to go climb in josua tree.
+
+
 Resources to get you started:
 
 - [Figma Mockup](https://www.figma.com/proto/ZN9GQfR0wSgf6jGALBb0uM/Web-Dev-Kata?node-id=1%3A2&scaling=min-zoom)
