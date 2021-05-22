@@ -1,14 +1,6 @@
 import React, { useEffect, useState } from "react";
+import LeadCard from "./LeadCard"
 import "./index.css";
-
-const LeadCard = ({lead}) => {
-    return (
-        <section>
-
-        </section>
-    );
-};
-
 
 
 const LeadershipTeam = () => {
@@ -18,16 +10,12 @@ const LeadershipTeam = () => {
     useEffect(async () => {
         const response = await fetch("https://beamtech.github.io/marketing-kata-html/leadership-team.json");
         const data = await response.json();
-        // await console.log(data)
-        // await console.log(response)
         await setLeaders(data);
     }, [])
 
     useEffect(() => {
 
     }, [leaders])
-
-    console.log(`AHHHHHHHHHHH ${leaders}`)
 
     return (
         <section className="leadership-container">
@@ -37,6 +25,11 @@ const LeadershipTeam = () => {
                 <div className="light-blue-line"></div>
             </section>
 
+            <section className="leadcard-container">
+                {leaders && leaders.map((lead) => {
+                    return <LeadCard lead={lead} key={lead.url} />
+                })}
+            </section>
         </section>
     );
 };
