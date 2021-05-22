@@ -16,7 +16,7 @@ As there are often trade offs when crafting a solution, the following is the pri
 
 Please add a section explaining the technical and style decisions involved in designing your solution. What options were you considering at various levels (eg. breakpoint choices, layout choices, and design, as applicable) and what were the tradeoffs in choosing one option over another? Feel free to include this section here in this README.
 
-
+-------------------------------------------
 ### Dev Notes </b>
 
 Breaking down the provided mock-up, these elements are provided (in order):
@@ -41,8 +41,14 @@ Media Queries will be used for a more responsive design
 
 Flex box will definately be used. 
 
-All-in-all seems like a straight forward design. At the moment of initial start, I am not considering any other technical methods, and I am only going to do media queries for small devices as I ...need to go climb in josua tree.
+All-in-all seems like a straight forward design. At the moment of initial start, I am not considering any other technical methods, and I am only going to do media queries for small devices.
 
+### During Development
+
+Admittedly, I still have trouble when position: absolute is present. Sometime display:flex does not work on position absolute and I have major alignment issues.
+-   with the presents of left, right, top, bottom flex ignores the section.
+-   had to ditch the 
+--------------------------------------------
 
 Resources to get you started:
 
@@ -52,7 +58,7 @@ Resources to get you started:
 - For a guide to working with oEmbed + Vimeo videos, [check out this link]('https://developer.vimeo.com/api/oembed/videos'). Alternatively, you can [visit this link](https://vimeo.com/api/oembed.json?url=https://vimeo.com/327864855) for metadata to help with embedding the marketing video referenced in this guide.
 
 Submitting your work to Beam
-----------------------------
+---------------------------------
 Please include a .nvmrc file with your submission so we know version of node you are using. There are differences between versions that can be significant to your application's runtime versus your reviewer's installed node version.
 
 Once you're happy with your submission, you can send it back in one of two formats; either as a git bundle or a zip file.

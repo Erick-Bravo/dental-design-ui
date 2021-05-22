@@ -7,11 +7,12 @@ const App = () => {
 
       <header className="header">
       </header>
-      <section>
-
-      </section>
       
       <NavBar />
+
+      <section className="top-message">
+        <p>Dental benifits that reward you for brushing your teeth</p>
+      </section>
 
       <footer>
 
