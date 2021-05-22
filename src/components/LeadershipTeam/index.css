@@ -1,0 +1,16 @@
+.leadership-container {
+    position: absolute;
+    width: 710px;
+    height: 57px;
+    left: 365px;
+    top: 1238px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 56px;
+    line-height: 66px;
+    text-align: center;
+
+    color: #444444;
+}
