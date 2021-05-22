@@ -1,6 +1,7 @@
 import NavBar from "./components/NavBar";
 import LeadershipTeam from "./components/LeadershipTeam";
 import './App.css';
+import { NavLink } from "react-router-dom";
 
 const App = () => {
   return (
@@ -44,10 +45,50 @@ const App = () => {
             <img src="./Georgian Partners Gray.png" alt="georgia partners" />
           </section>
         </section>
-        
+
       </section>
 
       <footer>
+        <section className="footer-contents">
+
+          <img src="https://beam.dental/assets/71e9428553ee396edc7b33877ee6c5f4.svg" alt="Beam-Dental-logo" />
+
+          <div className="footer-links">
+            <p>Explore</p>
+            <NavLink to="*">I'm a Broker</NavLink>
+            <NavLink to="*">I'm a Member</NavLink>
+            <NavLink to="*">I'm a Employer</NavLink>
+            <NavLink to="*">I'm a Provider</NavLink>
+          </div>
+          <div className="footer-links">
+            <p>Learn</p>
+            <NavLink to="*">FAQ's</NavLink>
+            <NavLink to="*">Company Blog</NavLink>
+            <NavLink to="*">Product Blog</NavLink>
+          </div>
+          <div className="footer-links">
+            <p>Company</p>
+            <NavLink to="*">About</NavLink>
+            <NavLink to="*">Careers</NavLink>
+            <NavLink to="*">Terms</NavLink>
+            <NavLink to="*">Privacy</NavLink>
+          </div>
+          <div className="footer-links">
+            <p>Resources</p>
+            <NavLink to="*">Find a Dentist</NavLink>
+            <NavLink to="*">Constact Us</NavLink>
+            <NavLink to="*">Get a Quote</NavLink>
+            <NavLink to="*">Paper Claims</NavLink>
+          </div>
+          <div className="footer-links">
+            <p>Connect</p>
+            <NavLink to="*">Linkedin</NavLink>
+            <NavLink to="*">Twitter</NavLink>
+            <NavLink to="*">Facebook</NavLink>
+            <NavLink to="*">Instagram</NavLink>
+          </div>
+
+        </section>
 
       </footer>
     </main>

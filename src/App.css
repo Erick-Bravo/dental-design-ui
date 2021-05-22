@@ -91,6 +91,38 @@ footer {
   height: 344px;
   margin-top: 2965px;
 }
+
+
+footer .footer-contents {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+}
+
+.footer-links p {
+  width: 77px;
+  height: 20px;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.footer-links a{
+  color: #666666
+}
+
+
+
 /* @media only screen and (max-width: 1400px){
   .top-message {
     right: 10%

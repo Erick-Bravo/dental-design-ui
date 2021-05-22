@@ -12,7 +12,9 @@ code {
     monospace;
 }
 
-
+a {
+  text-decoration: none;
+}
 
 h2 {
   width: 710px;
