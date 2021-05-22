@@ -50,7 +50,10 @@ Admittedly, I still have trouble when position: absolute is present. Sometime di
 -   had to ditch the original styles from figma to get it to work
 
 The next sections after the video will not be position absolute as I think I can get away with just using flexbox.
-I wonder if the senior dev has an opinion on avoiding using position abslolute.
+I wonder if the senior dev has an opinion on avoiding using position absolute.
+Had to delete absolute in the leadership cards, cards were stacking over each other with suggested styling.
+
+
 
 --------------------------------------------
 
