@@ -13,6 +13,40 @@ code {
 }
 
 
+
+h2 {
+  width: 710px;
+  height: 57px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 56px;
+  line-height: 66px;
+  text-align: center;
+  margin-top: 45px;
+  margin-bottom: 25px;
+  color: #444444;
+}
+
+
+.small-top-margin {
+  margin-top: 5px;
+}
+
+.light-blue-line-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.light-blue-line {
+  width: 40px;
+  height: 5px;
+  background: #01C9F0;
+}
+
+
 .button-1 {
   border-radius: 100px;
   border: 2px solid #00C9EF;

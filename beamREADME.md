@@ -47,7 +47,11 @@ All-in-all seems like a straight forward design. At the moment of initial start,
 
 Admittedly, I still have trouble when position: absolute is present. Sometime display:flex does not work on position absolute and I have major alignment issues.
 -   with the presents of left, right, top, bottom flex ignores the section.
--   had to ditch the 
+-   had to ditch the original styles from figma to get it to work
+
+The next sections after the video will not be position absolute as I think I can get away with just using flexbox.
+I wonder if the senior dev has an opinion on avoiding using position abslolute.
+
 --------------------------------------------
 
 Resources to get you started:
