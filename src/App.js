@@ -36,6 +36,7 @@ const App = () => {
         <section className="black-line-container">
           <h2>Our Investors</h2>
           <div className="black-line"></div>
+
           <section className="logos">
             <img src="./drive+capital White.png" alt="drive capital" />
             <img src="./cropped LACV Logo 01 White.png" alt="lewis and clark" />
@@ -43,8 +44,7 @@ const App = () => {
             <img src="./Georgian Partners Gray.png" alt="georgia partners" />
           </section>
         </section>
-
-
+        
       </section>
 
       <footer>
