@@ -64,6 +64,7 @@ display: block;
 
     .nav-right .beam-hamburger {
         visibility: visible;
+        cursor: pointer;
     }
 
     .nav-right button {
@@ -81,5 +82,4 @@ display: block;
         align-items: center;
         width: 100%;
     }
-  
   }

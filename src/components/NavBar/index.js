@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 import "./index.css"
 
@@ -10,12 +11,15 @@ const NavBar = () => {
         <nav className="nav-bar">
 
             <section className="nav-left">
-                <img src="https://beam.dental/assets/71e9428553ee396edc7b33877ee6c5f4.svg" alt="Beam-Dental-logo" />
+                <NavLink to="*">
+                    <img src="https://beam.dental/assets/71e9428553ee396edc7b33877ee6c5f4.svg" alt="Beam-Dental-logo" />
+                </NavLink>
             </section>
 
             <section className="nav-right">
-
+        
                 <img className="beam-hamburger" src="https://beam.dental/assets/8eb71cc2430c40e1ebcce7a014604816.svg" alt="beam-hamburger" />
+               
 
                 <div className="dropdown">
                     <button className="dropbtn">Explore

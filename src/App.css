@@ -355,7 +355,6 @@
   .banner-message p {
     width: 350px;
     font-size: 28px;
-    
   }
 
   .center {
@@ -425,6 +424,16 @@
 }
 
 @media only screen and (max-width: 360px) {
+
+  .banner-message p {
+    width: 100%;
+    font-size: 28px; 
+  }
+
+  .center p {
+    width: 100%;
+  }
+  
   .footer-contents-container {
     margin: 0px;
   }
