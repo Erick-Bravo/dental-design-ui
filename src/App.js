@@ -15,6 +15,14 @@ const App = () => {
       </header>
 
       <NavBar />
+      <section className="image-brush-container">
+          <img src="./Brush Image.png" alt="brush" />
+      </section>
+
+      <section className="image-glasses-container">
+          <img src="./Glasses.png" alt="glasses" />
+      </section>
+
 
       <section className="center">
         <section className="center-message">
@@ -24,6 +32,9 @@ const App = () => {
           <section className="light-blue-line-container">
             <div className="light-blue-line"></div>
           </section>
+
+    
+      
 
           <p>Beam Dental was founded on the idea that everyone deserves access to dental care, centering our mission around closing the gap of the 100 million Americans who don't. By blending innovative technology with traditional insurance policies, we've been able to bring incredible value to the employee benefits market—both disrupting insurance forever and delivering on our mission. </p>
           <p>Beam’s vision is to deliver a fundamentally unique approach to coverage by incorporating dental hygiene behavior into policy pricing at renewal.</p>

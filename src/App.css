@@ -15,12 +15,15 @@
   background-color: #FFFFFF;
 }
 
+
 .header {
   position: absolute;
   height: 500px;
   width: 100%;
   background-image: linear-gradient(#00C9EF, #009FD0)
 }
+
+
 
 .top-message {
   display: flex;
@@ -42,6 +45,8 @@
   line-height: 66px;
   color: #FFFFFF;
 }
+
+/* Our Mission, Our Vision Section */
 
 .center {
   display: flex;
@@ -65,6 +70,28 @@
   color: #444444;
 }
 
+/* Background Images */
+.image-brush-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  margin-top: 850px;
+}
+
+.image-glasses-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  margin-top: 1200px;
+}
+
+
+/* Investor Section */
+
 .investors-container {
   display: flex;
   position: absolute;
@@ -84,6 +111,8 @@
 .logos img {
   margin: 25px;
 }
+
+/* Footer */
 
 footer {
   position: absolute;
@@ -128,11 +157,13 @@ footer .footer-contents {
 
 
 
-/* @media only screen and (max-width: 1400px){
-  .top-message {
-    right: 10%
+@media only screen and (max-width: 1100px){
+  .image-brush-container {
+    display: none;
   }
-
-} */
+  .image-glasses-container {
+    display: none;
+  }
+}
 
 
