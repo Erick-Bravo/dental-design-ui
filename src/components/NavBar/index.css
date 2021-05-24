@@ -7,7 +7,7 @@
     background-color: #FFFFFF;
 }
 
-.nav-bar .right{
+.nav-bar .nav-right{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -51,9 +51,35 @@
 display: block;
 }
 
+.beam-hamburger {
+    visibility: hidden;
+}
+
 
 @media only screen and (max-width: 1100px){
 
-    
+    .nav-right .dropdown {
+        display: none;
+    }
+
+    .nav-right .beam-hamburger {
+        visibility: visible;
+    }
+
+    .nav-right button {
+        display: none;
+    }
+
+    .nav-bar {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    .nav-bar .nav-right{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 100%;
+    }
   
   }

@@ -9,14 +9,15 @@ const NavBar = () => {
 
         <nav className="nav-bar">
 
-            <section className="left">
+            <section className="nav-left">
                 <img src="https://beam.dental/assets/71e9428553ee396edc7b33877ee6c5f4.svg" alt="Beam-Dental-logo" />
             </section>
 
-            <section className="right">
+            <section className="nav-right">
 
+                <img className="beam-hamburger" src="https://beam.dental/assets/8eb71cc2430c40e1ebcce7a014604816.svg" alt="beam-hamburger" />
 
-                <div classNamw="dropdown">
+                <div className="dropdown">
                     <button className="dropbtn">Explore
                         <i className="fa fa-caret-down"></i>
                     </button>
