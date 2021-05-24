@@ -54,6 +54,10 @@ I wonder if the senior dev has an opinion on avoiding using position absolute.
 Had to delete absolute in the leadership cards, cards were stacking over each other with suggested styling.
 But in other places it is needed. Still need time with absolute.
 
+Found a good article to which talks about resizing embeded video since I was having trouble - https://www.smashingmagazine.com/2014/02/making-embedded-content-work-in-responsive-design/
+
+I did have to add a width: 100% to the video-container, since was not showing. From I learned earlier on display: absolute, the container wont show without some type of sizing for width and height.
+
 ### Media Query thoughts
 Just read a good article on responsive design 
 - https://www.toptal.com/responsive-web/introduction-to-responsive-web-design-pseudo-elements-media-queries
