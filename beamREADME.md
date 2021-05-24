@@ -77,12 +77,13 @@ I see how having specific sizing can be a lot smoother. I found myself possibly 
 
 ## After Thoughts
 Overall, this has been a really great excersize. I became more familiar with display: absolute and its characteristic. I also gained a lot of experience with media queries. I have not used media queries to that extend yet..
+I feel like my design is pretty basic compared to Beam dental's actual website, but it is practical. Would like to se how the Engineers tackle it.
 I possibly could go over and refactor my code some more, but atm I am pretty exhausted and I need to turn this in.
 I also would really like to have a functioning mock navbar that drops down once the hamburger is clicked. Some other time.
 Cant wait to hear feedback from this excersize.
 
 
--command for .nvmrc file node -v > .nvmrc 
+-command for .nvmrc file: node -v > .nvmrc 
 
 
 
