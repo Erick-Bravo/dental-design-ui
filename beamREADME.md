@@ -17,7 +17,7 @@ As there are often trade offs when crafting a solution, the following is the pri
 Please add a section explaining the technical and style decisions involved in designing your solution. What options were you considering at various levels (eg. breakpoint choices, layout choices, and design, as applicable) and what were the tradeoffs in choosing one option over another? Feel free to include this section here in this README.
 
 -------------------------------------------
-### Dev Notes </b>
+## Dev Notes </b>
 
 Breaking down the provided mock-up, these elements are provided (in order):
 -   Navbar at top - logo left, individual section right containing 3 drop down and 2 buttons.
@@ -69,7 +69,7 @@ Decided to compramise on the navbar functionality and just have psuedo elements 
 
 I am wondering how small a screen size is the default minimum. I gauged for the iphone 5 at 320 x 568
 
-### After Though
+## After Thoughts
 Overall, this has been a really great excersize. I became more familiar with display: absolute and its characteristic. I also gained a lot of experience with media queries. I have not used media queries to that extend yet, but rather enjoys it and will take that to my own personal projects.
 I possibly could go over and refactor my code some more, but atm I am pretty exhausted and I need to turn this in.
 I also would really like to have a functioning mock navbar that drops down once hamburger is clicked. Some other time.
