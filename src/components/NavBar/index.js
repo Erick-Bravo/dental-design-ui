@@ -14,33 +14,35 @@ const NavBar = () => {
             </section>
 
             <section className="right">
-                <div class="dropdown">
-                    <button class="dropbtn">Explore
-                        <i class="fa fa-caret-down"></i>
+
+
+                <div classNamw="dropdown">
+                    <button className="dropbtn">Explore
+                        <i className="fa fa-caret-down"></i>
                     </button>
-                    <div class="dropdown-content">
+                    <div className="dropdown-content">
                         <a href="#">Thing 1</a>
                         <a href="#">Thing 2</a>
                         <a href="#">Thing 3</a>
                     </div>
                 </div>
 
-                <div class="dropdown">
-                    <button class="dropbtn">Company
-                        <i class="fa fa-caret-down"></i>
+                <div className="dropdown">
+                    <button className="dropbtn">Company
+                        <i className="fa fa-caret-down"></i>
                     </button>
-                    <div class="dropdown-content">
+                    <div className="dropdown-content">
                         <a href="#">Thing 1</a>
                         <a href="#">Thing 2</a>
                         <a href="#">Thing 3</a>
                     </div>
                 </div>
 
-                <div class="dropdown">
-                    <button class="dropbtn">Resources
-                        <i class="fa fa-caret-down"></i>
+                <div className="dropdown">
+                    <button className="dropbtn">Resources
+                        <i className="fa fa-caret-down"></i>
                     </button>
-                    <div class="dropdown-content">
+                    <div className="dropdown-content">
                         <a href="#">Thing 1</a>
                         <a href="#">Thing 2</a>
                         <a href="#">Thing 3</a>
