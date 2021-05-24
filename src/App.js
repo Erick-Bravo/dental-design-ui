@@ -33,9 +33,6 @@ const App = () => {
             <div className="light-blue-line"></div>
           </section>
 
-    
-      
-
           <p>Beam Dental was founded on the idea that everyone deserves access to dental care, centering our mission around closing the gap of the 100 million Americans who don't. By blending innovative technology with traditional insurance policies, we've been able to bring incredible value to the employee benefits market—both disrupting insurance forever and delivering on our mission. </p>
           <p>Beam’s vision is to deliver a fundamentally unique approach to coverage by incorporating dental hygiene behavior into policy pricing at renewal.</p>
         </section>
@@ -49,7 +46,7 @@ const App = () => {
           <h2>Our Investors</h2>
           <div className="black-line"></div>
 
-          <section className="logos">
+          <section className="logos-container">
             <img src="./drive+capital White.png" alt="drive capital" />
             <img src="./cropped LACV Logo 01 White.png" alt="lewis and clark" />
             <img src="./kleiner perkins kleiner perkins Gray.png" alt="kleiner" />
@@ -59,8 +56,8 @@ const App = () => {
 
       </section>
 
-      <footer>
-        <section className="footer-contents">
+      <footer className="footer-container">
+        <section className="footer-contents-container">
 
           <img src="https://beam.dental/assets/71e9428553ee396edc7b33877ee6c5f4.svg" alt="Beam-Dental-logo" />
 
