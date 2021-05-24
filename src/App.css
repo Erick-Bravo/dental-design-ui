@@ -42,6 +42,7 @@
   font-weight: 300;
   font-size: 56px;
   line-height: 66px;
+  text-align: center;
   color: #FFFFFF;
 }
 
@@ -314,8 +315,6 @@
 
 @media only screen and (max-width: 593px) {
 
-
-
   .center {
     display: flex;
     justify-content: center; 
@@ -348,6 +347,87 @@
     margin-top: 3265px;
   }
 
+}
+
+
+@media only screen and (max-width: 480px) {
+
+  .banner-message p {
+    width: 350px;
+    font-size: 28px;
+    
+  }
+
+  .center {
+    margin-top: 674px;
+  }
+  
+  .center-message {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .center p {
+    width: 300px;
+    font-size: 15px;
+  }
+
+  .investors-container {
+    margin-top: 2900px;
+  }
+
+  .investors-container .logos-container img {
+    flex-flow: wrap;
+    width: 130px;
+  }
+
+  .footer-container {
+    margin-top: 3365px;
+  }
+
+  .footer-contents-container {
+    display: flex;
+    flex-flow: wrap;
+    margin: 40px;
+    width: 300px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 80px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+
+
+  .center {
+    margin-top: 625px;
+  }
+
+  .investors-container {
+    height: 550px;
+    width: 100;
+    margin-top: 4150px;
+  }
+
+  .investors-container .logos-container {
+    width: 130px;
+  }
+
+  .investors-container .logos-container img {
+    width: 150px;
+  }
+
+  .footer-container {
+    margin-top: 4765px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .footer-contents-container {
+    margin: 0px;
+  }
 }
 
 

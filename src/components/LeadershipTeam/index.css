@@ -114,41 +114,18 @@
     
 }
 
-/* @media only screen and (max-width: 593px){
+@media only screen and (max-width: 400px) {
+
 
     .leadership-container {
         width: 100%;
-        margin-top: 1300px;
-    }
-    
-    .leadership-card-container {
-        max-width: 950px;
-        margin-top: 1100px;
-    }
-    
-    .lead-card {
-        width: 192px;
-        height: 247.5px;
-        margin-top: 20px;
-    }
-    
-    .lead-card img{
-        width: 141px;
-        height: 143.25px;
-    }
-    
-    .lead-card .name {
-        width: 256px;
-        height: 25px;
-        left: calc(50% - 256px/2);
-        top: calc(50% - 25px/2 + 75.5px);
-        font-size: 18px;
-    }
-    
-    .lead-card .title {
-        width: 206px;
-        height: 59px;
-        font-size: 12px;
+        margin-top: 1250px;
     }
 
-} */
+    .leadership-card-container {
+        max-width: 950px;
+        margin-top: 1050px;
+    }
+    
+  }
+
