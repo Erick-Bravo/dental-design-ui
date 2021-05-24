@@ -11,7 +11,7 @@
 .leadcard-container {
     display: flex;
     flex-flow: wrap;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     position: absolute;
     max-width: 1200px;

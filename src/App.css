@@ -114,11 +114,16 @@ footer .footer-contents {
   font-weight: bold;
   font-size: 18px;
   line-height: 21px;
+  margin-top: 80px;
   color: #000000;
 }
 
 .footer-links a{
   color: #666666
+}
+
+.footer-links a:hover{
+  color: #a5a5a5
 }
 
 
