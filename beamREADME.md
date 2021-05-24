@@ -18,6 +18,10 @@ Please add a section explaining the technical and style decisions involved in de
 
 -------------------------------------------
 ## Dev Notes </b>
+- please run in command line:
+-   npm install
+-   npm run
+- if app does not open new browser automatically, go to http://localhost:3000/
 
 Breaking down the provided mock-up, these elements are provided (in order):
 -   Navbar at top - logo left, individual section right containing 3 drop down and 2 buttons.
@@ -76,6 +80,9 @@ Overall, this has been a really great excersize. I became more familiar with dis
 I possibly could go over and refactor my code some more, but atm I am pretty exhausted and I need to turn this in.
 I also would really like to have a functioning mock navbar that drops down once the hamburger is clicked. Some other time.
 Cant wait to hear feedback from this excersize.
+
+
+-command for .nvmrc file node -v > .nvmrc 
 
 
 
