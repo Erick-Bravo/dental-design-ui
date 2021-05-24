@@ -37,9 +37,8 @@ Using semantic HTML, it is encouraged to replace generic divs with more contextu
 -   footer
 
 Media Queries will be used for a more responsive design
-- various screen sizes as needed by response of content.
+- No specific screen sizes in mind. I will have to see where my flexbox elements start to shift undesirably. Hopefully this doesnt come back to haunt me.
 
-Flex box will definately be used. 
 
 All-in-all seems like a straight forward design. At the moment of initial start, I am not considering any other technical methods, and I am only going to do media queries for small devices.
 
@@ -58,6 +57,7 @@ Found a good article to which talks about resizing embeded video since I was hav
 
 I did have to add a width: 100% to the video-container, since was not showing. From I learned earlier on display: absolute, the container wont show without some type of sizing for width and height.
 
+
 ### Media Query thoughts
 Just read a good article on responsive design 
 - https://www.toptal.com/responsive-web/introduction-to-responsive-web-design-pseudo-elements-media-queries
@@ -68,6 +68,8 @@ I will use this for the background images since it looks a little funky when und
 Decided to compramise on the navbar functionality and just have psuedo elements in navbar contents, which then disapear under media queries. Then the Beam Dental hamburger appears.
 
 I am wondering how small a screen size is the default minimum. I gauged for the iphone 5 at 320 x 568
+
+I see how having specific sizing can be a lot smoother. I found myself possibly writing too many media queries. But I am definately happy with the end result.
 
 ## After Thoughts
 Overall, this has been a really great excersize. I became more familiar with display: absolute and its characteristic. I also gained a lot of experience with media queries. I have not used media queries to that extend yet, but rather enjoys it and will take that to my own personal projects.
