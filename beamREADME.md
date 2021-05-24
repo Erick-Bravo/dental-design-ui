@@ -37,7 +37,7 @@ Using semantic HTML, it is encouraged to replace generic divs with more contextu
 -   footer
 
 Media Queries will be used for a more responsive design
-- small phone - max-width: 600px
+- various screen sizes as needed by response of content.
 
 Flex box will definately be used. 
 
@@ -65,8 +65,13 @@ This is where I discovered psuedo elements by using display: none in media queri
 I will use this for the background images since it looks a little funky when under text.
 - I believe I mostly just need to change the sizing and margin-top in most area. The only thing I know will need a lot of work is the navbar. It should keep the logo while displaying the a hamburger. onClick, should open the drop down the links and buttons. After this I am done.
 
+Decided to compramise on the navbar functionality and just have psuedo elements in navbar contents, which then disapear under media queries. Then the Beam Dental hamburger appears.
 
+I am wondering how small a screen size is the default minimum. I gauged for the iphone 5 at 320 x 568
 
+### After Though
+Overall, this has been a really great excersize. I became more familiar with display: absolute and its characteristic. I also gained a lot of experience with media queries. I have not used media queries to that extend yet, but rather enjoys it and will take that to my own personal projects.
+Cant wait to hear feedback from this excersize.
 
 
 
