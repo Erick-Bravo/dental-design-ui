@@ -71,6 +71,8 @@ I am wondering how small a screen size is the default minimum. I gauged for the 
 
 ### After Though
 Overall, this has been a really great excersize. I became more familiar with display: absolute and its characteristic. I also gained a lot of experience with media queries. I have not used media queries to that extend yet, but rather enjoys it and will take that to my own personal projects.
+I possibly could go over and refactor my code some more, but atm I am pretty exhausted and I need to turn this in.
+I also would really like to have a functioning mock navbar that drops down once hamburger is clicked. Some other time.
 Cant wait to hear feedback from this excersize.
 
 
