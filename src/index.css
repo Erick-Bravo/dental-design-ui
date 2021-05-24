@@ -90,4 +90,10 @@ h2 {
   color: black;
 }
 
+@media only screen and (max-width: 784px){
+	h2 {
+    font-size: 40px;
+  }
+}
+
 

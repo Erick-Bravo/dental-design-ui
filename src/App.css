@@ -15,6 +15,7 @@
   background-color: #FFFFFF;
 }
 
+/* Header */
 
 .header {
   position: absolute;
@@ -22,8 +23,6 @@
   width: 100%;
   background-image: linear-gradient(#00C9EF, #009FD0)
 }
-
-
 
 .top-message {
   display: flex;
@@ -51,10 +50,18 @@
 .center {
   display: flex;
   justify-content: center; 
+  align-items: center;
   position: absolute;
   width: 100%;
   color: black;
   margin-top: 800px;
+}
+
+.center-message {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .center p {
@@ -71,6 +78,7 @@
 }
 
 /* Background Images */
+
 .image-brush-container {
   display: flex;
   justify-content: flex-start;
@@ -174,6 +182,8 @@
     width: 150px;
   }
 
+  /* Footer */
+
   .footer-contents-container {
     display: flex;
     flex-flow: wrap;
@@ -183,11 +193,42 @@
     padding-right: 0px;
     padding-bottom: 50px;
   }
-
 }
 
 
 @media only screen and (max-width: 784px){
+
+  /* Header */
+
+  .top-message p {
+    width: 460px;
+    font-size: 36px;
+  }
+
+  /* Our Mission, Our Vision Section */
+
+  .center {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    color: black;
+    margin-top: 800px;
+  }
+  
+  .center p {
+    width: 510px;
+    font-family: Roboto; 
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 35px;
+    color: #444444;
+  }
+  
+  /* Background-Images */
+
   .image-brush-container {
     display: none;
   }
@@ -195,10 +236,14 @@
     display: none;
   }
 
+  /* Investor-Section */
+
   .investors-container .logos-container img {
     flex-flow: wrap;
     width: 150px;
   }
+
+  /* Footer */
 
   .footer-container {
     display: flex;
