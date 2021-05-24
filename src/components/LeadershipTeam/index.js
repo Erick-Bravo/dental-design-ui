@@ -25,7 +25,7 @@ const LeadershipTeam = () => {
                 <div className="light-blue-line"></div>
             </section>
 
-            <section className="leadcard-container">
+            <section className="leadership-card-container">
                 {leaders && leaders.map((lead) => {
                     return <LeadCard lead={lead} key={lead.url} />
                 })}

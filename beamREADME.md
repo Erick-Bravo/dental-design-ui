@@ -52,6 +52,19 @@ Admittedly, I still have trouble when position: absolute is present. Sometime di
 The next sections after the video will not be position absolute as I think I can get away with just using flexbox.
 I wonder if the senior dev has an opinion on avoiding using position absolute.
 Had to delete absolute in the leadership cards, cards were stacking over each other with suggested styling.
+But in other places it is needed. Still need time with absolute.
+
+### Media Query thoughts
+Just read a good article on responsive design 
+- https://www.toptal.com/responsive-web/introduction-to-responsive-web-design-pseudo-elements-media-queries
+This is where I discovered psuedo elements by using display: none in media queries.
+I will use this for the background images since it looks a little funky when under text.
+- I believe I mostly just need to change the sizing and margin-top in most area. The only thing I know will need a lot of work is the navbar. It should keep the logo while displaying the a hamburger. onClick, should open the drop down the links and buttons. After this I am done.
+
+
+
+
+
 
 
 
