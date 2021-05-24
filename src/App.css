@@ -24,7 +24,7 @@
   background-image: linear-gradient(#00C9EF, #009FD0)
 }
 
-.top-message {
+.banner-message {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -34,7 +34,7 @@
   margin-top: 150px;
 }
 
-.top-message p {
+.banner-message p {
   width: 660px;
   height: 156px;
   font-family: "Roboto", sans-serif;
@@ -44,6 +44,9 @@
   line-height: 66px;
   color: #FFFFFF;
 }
+
+
+
 
 /* Our Mission, Our Vision Section */
 
@@ -200,9 +203,28 @@
 
   /* Header */
 
-  .top-message p {
+  .banner-message p {
     width: 460px;
     font-size: 36px;
+  }
+
+  .banner-message iframe {
+    width: 480;
+    height: 270;
+  }
+
+  .video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 35px;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .video-container iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
   }
 
   /* Our Mission, Our Vision Section */

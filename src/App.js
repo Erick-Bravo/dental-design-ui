@@ -8,9 +8,12 @@ const App = () => {
     <main className="App">
 
       <header className="header">
-        <section className="top-message">
+        <section className="banner-message">
           <p>Dental benifits that reward you for brushing your teeth</p>
-          <iframe src="https:/player.vimeo.com/video/327864855?app_id=122963" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Beam: Smarter Dental Care" />
+
+          <div className="video-container">
+            <iframe src="https:/player.vimeo.com/video/327864855?app_id=122963" width="640" height="360" frameBorder="0" allowFullScreen="" title="Beam: Smarter Dental Care" />
+          </div>
         </section>
       </header>
 
